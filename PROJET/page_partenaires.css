@@ -1,0 +1,44 @@
+
+
+.header-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5c5c5c;
+    font-weight: normal;
+    font-size:100px;
+    position: absolute;
+    top: -50px;
+    right: 2%;
+}
+
+.logo_partenaires{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.text_before{
+    width: 45%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+
+}
+
+.text_after{
+    width: 45%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+
+}
+
+.text_before h2, .text_after h2 {
+    font-weight: normal;
+    color: #5c5c5c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue {
+    color: #20235d;
+}

@@ -1,0 +1,156 @@
+
+#background_img {
+    width: 62%;
+    opacity: 0.15;
+    position: absolute;
+    height: auto;
+    left: 18%;
+    top: 280px;
+}
+
+.container_text {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.box_text {
+    width: 30%;
+    margin: 30px;
+    margin-top: 50px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5c5c5c;
+    text-align: justify;
+    background-color: rgba(226, 225, 225, 0.153);
+}
+
+.box_text h1,h3{
+    margin: 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.box_text p {
+    margin: 10px;
+}
+
+/*------------------------------------------------------*/
+
+.container_carre {
+    margin-top: 50px;
+    margin-bottom: 175px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child-1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.child-1 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.child-2{
+    color: #5c5c5c;
+    font-size: 18px;
+    text-align: center;
+}
+
+.child-2 p {
+    margin: 3px;
+    margin-top: 6px;
+}
+
+/*------------------------------------------------------*/
+
+.parent1 {
+    margin-right: 25px;
+    margin-left: 25px;
+    position: relative;
+    width: 220px;
+    height: 200px;
+    border: 5px solid 	#F5018E;
+}
+  
+.parent1 .child-1 {
+    background: linear-gradient(to right, #ffffff -10%, 	#F5018E 40%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+}
+  
+.parent1 .child-2 {
+    background: radial-gradient(circle at 0% 0%, #ffffff -10%, #ffe4f2 40%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    right:0;
+}
+
+/*------------------------------------------------------*/
+
+.parent2 {
+    margin-right: 25px;
+    margin-left: 25px;
+    position: relative;
+    width: 220px;
+    height: 200px;
+    border: 5px solid #b3ce79;
+}
+  
+.parent2 .child-1 {
+    background: linear-gradient(to right, #ffffff -10%, #52d600 40%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+}
+  
+.parent2 .child-2 {
+    background: radial-gradient(circle at 0% 0%, #ffffff -10%, #f5ffdf 40%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    right:0;
+}
+
+/*------------------------------------------------------*/
+
+.parent3 {
+    margin-right: 25px;
+    margin-left: 25px;
+    position: relative;
+    width: 220px;
+    height: 200px;
+    border: 5px solid 	#00A0DD;
+}
+  
+.parent3 .child-1 {
+    background: linear-gradient(to right, #ffffff -10%, 	#00A0DD 40%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+}
+  
+.parent3 .child-2 {
+    background: radial-gradient(circle at 0% 0%, #ffffff -10%, #d1f5ff 40%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    right:0;
+}
+

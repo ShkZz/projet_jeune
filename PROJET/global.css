@@ -1,0 +1,192 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: radial-gradient(circle at 50% 15%, white 90%, #5c5c5c 120%);
+    
+}
+
+header {
+    background: radial-gradient(circle at 15% 100%, #ffffff 0%, #a8a8a8 40%);
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+
+
+.logo img {
+    display: block;
+    padding-left: 10%;
+    height: 240px;
+}
+
+
+.header-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    font-size:50px;
+    position: absolute;
+    top: 80px;
+    right: 2%;
+    letter-spacing: 4px;
+}
+
+
+nav {
+    background:  radial-gradient(circle at 15% 0%, #ffffff 0%, #a8a8a8 40%);
+    padding: 20px;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+nav li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*---------------------------------------------------------*/
+
+nav .menu_jeune {
+    color: 	#F5018E;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+  
+nav .menu_jeune_actif {
+    color: #ffffff;
+    background-color: 	#F5018E;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+  
+nav .menu_jeune:hover {
+    color: white;
+    background-color: 	#F5018E;
+}
+
+/*---------------------------------------------------------*/
+
+nav .menu_referent {
+    color: 	#a9d95a;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+  
+nav .menu_referent_actif {
+    color: #ffffff;
+    background-color: 	#a9d95a;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+  
+/*
+nav .menu_referent:hover {
+    color: white;
+    background-color: 	#a9d95a;
+}
+*/
+
+/*---------------------------------------------------------*/
+
+nav .menu_consultant {
+    color: 	#10b1df;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+  
+nav .menu_consultant_actif {
+    color: #ffffff;
+    background-color: 	#10b1df;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+
+/*
+nav .menu_consultant:hover {
+    color: white;
+    background-color: 	#10b1df;
+}
+*/
+
+  /*---------------------------------------------------------*/
+
+  nav .menu_partenaires {
+    color: #5c5c5c;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+
+nav .menu_partenaires_actif {
+    color: #ffffff;
+    background-color: #5c5c5c;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+
+nav .menu_partenaires:hover {
+    color: white;
+    background-color: #5c5c5c;
+}
+
+
+  /*---------------------------------------------------------*/
+
+  nav .menu_deconnexion {
+    color: red;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 2px;
+}
+
+
+nav .menu_deconnexion:hover {
+    color: white;
+    background-color: red;
+}
+
+
+
+
+
